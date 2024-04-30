@@ -1,35 +1,17 @@
 {
-    "name": "socialiteproviders/azureadb2c",
-    "description": "AzureADB2C OAuth2 Provider for Laravel Socialite",
+    "name": "siber/socialite-aadb2c",
+    "description": "Custom AzureADB2C Socialite provider for Laravel",
+    "type": "library",
     "license": "MIT",
-    "keywords": [
-        "Azure Active Directory",
-        "Azure AD",
-        "Azure Active Directory B2C",
-        "Azure AD B2C",
-        "OpenID Connect",
-        "laravel Azure AD B2C",
-        "laravel socialite",
-        "laravel",
-        "socialite Azure AD B2C",
-        "socialite"
-    ],
-    "authors": [
-        {
-            "name": "Naohiro Fujie",
-            "email": "naohiro.fujie@eidentity.jp"
-        }
-    ],
     "require": {
-        "php": "^7.4 || ^8.0",
-        "ext-json": "*",
-        "ext-openssl": "*",
+        "php": ">=7.4",
+        "laravel/socialite": "^5.5",
         "firebase/php-jwt": "^5.2",
         "socialiteproviders/manager": "~4.0"
     },
     "autoload": {
         "psr-4": {
-            "SocialiteProviders\\AzureADB2C\\": ""
+            "SocialiteProviders\\AzureADB2C\\": "src/"
         }
     }
 }
