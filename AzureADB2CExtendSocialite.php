@@ -1,6 +1,6 @@
 <?php
 
-namespace SocialiteProviders\AzureADB2C;
+namespace Siber\AzureADB2C;
 
 use SocialiteProviders\Manager\SocialiteWasCalled;
 

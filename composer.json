@@ -11,7 +11,7 @@
     },
     "autoload": {
         "psr-4": {
-            "SocialiteProviders\\AzureADB2C\\": "src/"
+            "Siber\\SocialiteAzureADB2C\\": "src/"
         }
     }
 }
